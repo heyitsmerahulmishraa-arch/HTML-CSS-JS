@@ -7,5 +7,5 @@
 
 ## Prime Number Checker
 ![Prime Checker Project Image](./projectImages/primeChecker.png)
-- **Git Hub Link:** 
+- **Git Hub Link:** https://github.com/heyitsmerahulmishraa-arch/HTML-CSS-JS/tree/main/primeChecker
 - **Website Link:** https://primecheckerrproject.netlify.app/
