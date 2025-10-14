@@ -1,118 +1,118 @@
-header{
-    background-color: var(--dark-08);
+header {
+  background-color: var(--dark-08);
 }
-.topBannerContainer{
-    border: inset 1px var(--dark-15);
+.topBannerContainer {
+  border: inset 1px var(--dark-15);
 }
-.topBanner{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-    padding: 20px 24px;
-    color: var(--gray-60);
-}
-
-.headerContainer{
-    background-color: var(--dark-10);
-    border: 1px solid var(--gray-15);
-}
-.header{
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 24px 162px;
+.topBanner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 20px 24px;
+  color: var(--gray-60);
 }
 
-.header ul{
-    display: flex;
-    align-items: center;
+.headerContainer {
+  background-color: var(--dark-10);
+  border: 1px solid var(--dark-15);
 }
-.header ul li{
-    /* border: 1px solid black; */
-    padding: 14px 24px;
+.header {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 24px 162px;
 }
-.header ul li.active{
-    border: 1px solid var(--dark-20);
-    border-radius: 10px;
-    background-color: var(--dark-08);
+
+.header ul {
+  display: flex;
+  align-items: center;
 }
-.header ul li.active a{
-    color: var(--white-color);
+.header ul li {
+  /* border: 1px solid black; */
+  padding: 14px 24px;
 }
-.header ul li a{
-    color: var(--gray-50);
+.header ul li.active {
+  border: 1px solid var(--dark-20);
+  border-radius: 10px;
+  background-color: var(--dark-08);
 }
-.header .headerBtns button{
-    padding: 14px 20px;
-    border-radius: 10px;
-    background-color: var(--yellow-55);
-    color: var(--dark-08);
-    font-weight: 600;
+.header ul li.active a {
+  color: var(--white-color);
 }
-.mobileNavIcon{
-    display: none;
+.header ul li a {
+  color: var(--gray-50);
 }
-.header .headerMobileNav{
-    display: none;
+.header .headerBtns button {
+  padding: 14px 20px;
+  border-radius: 10px;
+  background-color: var(--yellow-55);
+  color: var(--dark-08);
+  font-weight: 600;
 }
-.header.active .headerMobileNav{
+.mobileNavIcon {
+  display: none;
+}
+.header .headerMobileNav {
+  display: none;
+}
+.header.active .headerMobileNav {
+  display: block;
+}
+.header .headerMobileNav .mobileHeaderBtns button {
+  padding: 14px 20px;
+  border-radius: 10px;
+  background-color: var(--yellow-55);
+  color: var(--dark-08);
+  font-weight: 600;
+}
+
+@media (max-width: 1440px) {
+  .topBanner {
+    padding: 12px 24px;
+  }
+  .header {
+    padding: 20px 80px;
+  }
+  .header ul li {
+    padding: 10px 18px;
+  }
+  .header .headerBtns button {
+    padding: 10px 14px;
+  }
+}
+@media (max-width: 1080px) {
+  .header {
+    padding: 20px 16px;
+  }
+}
+
+@media (max-width: 780px) {
+  .topBanner {
+    padding: 40px 24px 14px;
+    font-size: 12px;
+  }
+  .mobileNavIcon {
     display: block;
-}
-.header .headerMobileNav .mobileHeaderBtns button{
-    padding: 14px 20px;
-    border-radius: 10px;
-    background-color: var(--yellow-55);
-    color: var(--dark-08);
-    font-weight: 600;
-}
-
-@media (max-width:1440px) {
-    .topBanner{
-        padding: 12px 24px;
-    }
-    .header{
-        padding: 20px 80px;
-    }
-    .header ul li{
-        padding: 10px 18px;
-    }
-    .header .headerBtns button{
-        padding: 10px 14px;
-    }
-}
-@media (max-width:1080px){
-    .header{
-        padding: 20px 16px;
-    }
-}
-
-@media (max-width:780px){
-    .topBanner{
-        padding: 40px 24px 14px;
-        font-size: 12px;
-    }
-    .mobileNavIcon{
-        display: block;
-    }
-    .header .desktopNav{
-        display: none;
-    }
-    .header .headerBtns{
-        display: none;
-    }
-    .header .headerMobileNav{
-        position: absolute;
-        right: 0;
-        top: 100%;
-        background-color: var(--dark-10);
-        padding: 16px 64px;
-    }
-    .header .headerMobileNav ul{
-        flex-direction: column;
-    }
-    .header .headerMobileNav .mobileHeaderBtns{
-        margin-top: 16px;
-    }
+  }
+  .header .desktopNav {
+    display: none;
+  }
+  .header .headerBtns {
+    display: none;
+  }
+  .header .headerMobileNav {
+    position: absolute;
+    right: 0;
+    top: 100%;
+    background-color: var(--dark-10);
+    padding: 16px 64px;
+  }
+  .header .headerMobileNav ul {
+    flex-direction: column;
+  }
+  .header .headerMobileNav .mobileHeaderBtns {
+    margin-top: 16px;
+  }
 }

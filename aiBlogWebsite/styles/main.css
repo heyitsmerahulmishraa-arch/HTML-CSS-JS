@@ -1,140 +1,611 @@
-main{
-    background-color: var(--black-color);
-    font-family: var(--kumbh-sans-font);
+main {
+  background-color: var(--black-color);
+  font-family: var(--kumbh-sans-font);
+  border: 1px solid var(--dark-15);
+}
+.mainContainer {
+  display: flex;
+}
+.leftContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+  /* border: 1px solid black; */
+  max-width: 1105px;
+  width: 100%;
+  padding-top: 150px;
+  border-right: 1px solid var(--dark-15);
+}
+.leftContainer .contentContainer {
+  padding-left: 162px;
+}
+.leftContainer .contentContainer .firstTitlePara {
+  color: var(--dark-40);
+  font-size: 30px;
+}
+.leftContainer .contentContainer h1 {
+  font-size: 70px;
+  font-weight: 500;
+  color: var(--white-color);
+}
+.leftContainer .contentContainer .titleDescription {
+  font-size: 18px;
+  color: var(--gray-50);
+}
+
+.leftContainer .resourceInfoCardContainer {
+  border-block: 1px solid var(--dark-15);
+  display: flex;
+  padding-left: 162px;
+}
+
+.leftContainer .resourceInfoCardContainer .card {
+  border: 1px solid black;
+  width: 248px;
+  padding: 50px 0;
+  color: var(--white-color);
+}
+.leftContainer .resourceInfoCardContainer .card h2 {
+  font-size: 40px;
+}
+.leftContainer .resourceInfoCardContainer .card h2 span {
+  color: var(--yellow-55);
+}
+.leftContainer .resourceInfoCardContainer .card p {
+  font-size: 18px;
+  color: var(--gray-60);
+}
+.leftContainer .resourceInfoCardContainer .line {
+  border: 1px solid var(--dark-15);
+  margin: 0 50px;
+}
+
+.rightContainer {
+  position: relative;
+  /* border: 1px solid var(--dark-15); */
+  max-width: 653px;
+  width: 100%;
+  overflow: hidden;
+}
+.rightContainer .designContainer {
+  /* border: 1px solid white; */
+  position: absolute;
+  left: -250px;
+  top: 40px;
+  width: 924px;
+  transform: rotate(55deg);
+}
+.rightContainer .designContainer img {
+  width: 100%;
+}
+
+.rightContainer .leftContent {
+  position: absolute;
+  left: 80px;
+  bottom: 80px;
+  /* border: 1px solid white; */
+  color: white;
+}
+.rightContainer .leftContent .imagesContainer {
+  position: relative;
+  width: 218px;
+  height: 80px;
+  border: 1px solid var(--dark-15);
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+  padding: 0 5px;
+  margin-bottom: 30px;
+}
+.rightContainer .leftContent .imagesContainer .imageCircle {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  background-color: #262626;
+  border: 2px solid white;
+  border-radius: 42px;
+}
+.rightContainer .leftContent .imagesContainer .imageCircle img {
+  width: 100%;
+  height: 100%;
+}
+.imageCircle2 {
+  left: 50px;
+}
+.imageCircle3 {
+  left: 100px;
+}
+.imageCircle4 {
+  left: 150px;
+}
+.rightContainer .leftContent .exploreText {
+  font-size: 24px;
+  margin-bottom: 14px;
+}
+.rightContainer .leftContent .exploreDescription {
+  font-size: 18px;
+  color: var(--gray-60);
+}
+.rightContainer .leftContent button {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 18px;
+  margin-top: 30px;
+  padding: 18px 24px;
+  border-radius: 12px;
+  border: 1px solid var(--dark-15);
+  background-color: var(--dark-8);
+  color: var(--gray-60);
+}
+.mainInfoContainer{
     border: 1px solid var(--dark-15);
 }
-.mainContainer{
+
+.mainInfoCardContainer {
+    padding: 0 162px;
     display: flex;
 }
-.leftContainer{
+.mainInfoCardContainer .infoCard{
+    width: 425px;
+    color: white;
+    padding: 50px 0;
+}
+.mainInfoCardContainer .infoCard .cardContent{
     display: flex;
-    flex-direction: column;
-    gap: 100px;
-    /* border: 1px solid black; */
-    max-width: 1105px;
-    width: 100%;
-    padding-top: 150px;
-    
+    align-items: center;
+    justify-content: space-between;
+    gap: 5px;
+    margin: 30px 0;
 }
-.leftContainer .contentContainer{
-    padding-left: 162px;
-}
-.leftContainer .contentContainer .firstTitlePara{
-    color: var(--dark-40);
-    font-size: 30px;
-}
-.leftContainer .contentContainer h1{
-    font-size: 70px;
+.mainInfoCardContainer .infoCard .cardContent .content .title{
+    font-size: 20px;
     font-weight: 500;
-    color: var(--white-color);
 }
-.leftContainer .contentContainer .titleDescription{
+.mainInfoCardContainer .infoCard .cardContent .content .subTitle{
     font-size: 18px;
     color: var(--gray-50);
 }
-
-.leftContainer .resourceInfoCardContainer{
-    border-block: 1px solid var(--dark-15);
-    display: flex;
-    padding-left: 162px;
-}
-
-.leftContainer .resourceInfoCardContainer .card{
-    border: 1px solid black;
-    width: 248px;
-    padding: 50px 0;
-    color: var(--white-color);
-}
-.leftContainer .resourceInfoCardContainer .card h2{
-    font-size: 40px;
-}
-.leftContainer .resourceInfoCardContainer .card h2 span{
-    color: var(--yellow-55);
-}
-.leftContainer .resourceInfoCardContainer .card p{
-    font-size: 18px;
+.mainInfoCardContainer .infoCard .cardDescription{
+    font-size: 20px;
     color: var(--gray-60);
 }
-.leftContainer .resourceInfoCardContainer .line{
-    border: 1px solid var(--dark-15);
-    margin: 0 50px;
+.mainInfoCardContainer .line {
+  border: 1px solid var(--dark-15);
+  margin: 0 80px;
 }
 
-.rightContainer{
-    position: relative;
-    /* border: 1px solid var(--dark-15); */
-    max-width: 653px;
-    width: 100%;
-    overflow: hidden;
-}
-.rightContainer .designContainer{
-    /* border: 1px solid white; */
-    position: absolute;
-    left: -250px;
-    top: 40px;
-    width: 924px;
-    transform: rotate(55deg);
-}
-.rightContainer .designContainer img{
-    width: 100%;
-}
+@media (max-width: 1440px) {
+  .leftContainer {
+    max-width: 837px;
+    padding-top: 100px;
+  }
+  .leftContainer .contentContainer {
+    padding-left: 80px;
+  }
+  .leftContainer .resourceInfoCardContainer {
+    padding-left: 80px;
+  }
 
-.rightContainer .leftContent{
-    position: absolute;
-    left: 80px;
-    bottom: 80px;
-    /* border: 1px solid white; */
-    color: white;
-}
-.rightContainer .leftContent .imagesContainer{
-    position: relative;
-    width: 218px;
-    height: 80px;
-    border: 1px solid var(--dark-15);
-    border-radius: 100px;
-    display: flex;
-    align-items: center;
+  .leftContainer .contentContainer .firstTitlePara {
+    font-size: 22px;
+  }
+  .leftContainer .contentContainer h1 {
+    font-size: 55px;
+  }
+  .leftContainer .contentContainer .titleDescription {
+    font-size: 16px;
+  }
+
+  .leftContainer .resourceInfoCardContainer {
+    padding-left: 80px;
+  }
+
+  .leftContainer .resourceInfoCardContainer .card {
+    width: 199px;
+    padding: 30px 0;
+  }
+  .leftContainer .resourceInfoCardContainer .card h2 {
+    font-size: 30px;
+  }
+  .leftContainer .resourceInfoCardContainer .card p {
+    font-size: 14px;
+  }
+  .leftContainer .resourceInfoCardContainer .line {
+    margin: 0 40px;
+  }
+
+  .rightContainer {
+    max-width: 523px;
+  }
+  .rightContainer .leftContent {
+    left: 50px;
+    bottom: 50px;
+  }
+  .rightContainer .leftContent .imagesContainer {
+    width: 174px;
+    height: 66px;
     padding: 0 5px;
     margin-bottom: 30px;
+  }
+  .rightContainer .leftContent .imagesContainer .imageCircle {
+    width: 50px;
+    height: 50px;
+  }
+  .imageCircle2 {
+    left: 40px;
+  }
+  .imageCircle3 {
+    left: 80px;
+  }
+  .imageCircle4 {
+    left: 115px;
+  }
+  .rightContainer .leftContent .exploreText {
+    font-size: 20px;
+  }
+  .rightContainer .leftContent .exploreDescription {
+    font-size: 16px;
+  }
+  .rightContainer .leftContent button {
+    font-size: 14px;
+    margin-top: 20px;
+    padding: 14px 20px;
+    border-radius: 8px;
+  }
+
+  .mainInfoCardContainer {
+    padding: 0 80px;
 }
-.rightContainer .leftContent .imagesContainer .imageCircle{
-    position: absolute;
-    width: 60px;
-    height: 60px;
-    background-color: #262626;
-    border: 2px solid white;
-    border-radius: 42px;
+.mainInfoCardContainer .infoCard{
+    width: 360px;
+    padding: 40px 0;
 }
-.rightContainer .leftContent .imagesContainer .imageCircle img{
-    width: 100%;
-    height: 100%;
+.mainInfoCardContainer .infoCard .cardContent{
+    margin: 20px 0;
 }
-.imageCircle2{
-    left: 50px;
-}
-.imageCircle3{
-    left: 100px;
-}
-.imageCircle4{
-    left: 150px;
-}
-.rightContainer .leftContent .exploreText{
-    font-size: 24px;
-    margin-bottom: 14px;
-}
-.rightContainer .leftContent .exploreDescription{
+.mainInfoCardContainer .infoCard .cardContent .content .title{
     font-size: 18px;
-    color: var(--gray-60);
 }
-.rightContainer .leftContent button{
+.mainInfoCardContainer .infoCard .cardContent .content .subTitle{
+    font-size: 16px;
+}
+.mainInfoCardContainer .infoCard .cardDescription{
+    font-size: 16px;
+}
+.mainInfoCardContainer .line {
+  margin: 0 50px;
+}
+}
+
+
+@media (max-width: 1200px) {
+  .leftContainer {
+    max-width: 690px;
+    padding-top: 80px;
+  }
+  .leftContainer .contentContainer {
+    padding-left: 40px;
+  }
+  .leftContainer .resourceInfoCardContainer {
+    padding-left: 40px;
+  }
+
+  .leftContainer .contentContainer .firstTitlePara {
+    font-size: 16px;
+  }
+  .leftContainer .contentContainer h1 {
+    font-size: 46px;
+  }
+  .leftContainer .contentContainer .titleDescription {
+    font-size: 13px;
+  }
+
+  .leftContainer .resourceInfoCardContainer {
+    padding-left: 40px;
+  }
+
+  .leftContainer .resourceInfoCardContainer .card {
+    width: 165px;
+    padding: 30px 0;
+  }
+  .leftContainer .resourceInfoCardContainer .card h2 {
+    font-size: 24px;
+  }
+  .leftContainer .resourceInfoCardContainer .card p {
+    font-size: 12px;
+  }
+  .leftContainer .resourceInfoCardContainer .line {
+    margin: 0 32px;
+  }
+  .rightContainer {
+    max-width: 523px;
+  }
+  .rightContainer .leftContent {
+    left: 50px;
+    bottom: 50px;
+  }
+  .rightContainer .leftContent .imagesContainer {
+    width: 174px;
+    height: 66px;
+    padding: 0 5px;
+    margin-bottom: 30px;
+  }
+  .rightContainer .leftContent .imagesContainer .imageCircle {
+    width: 50px;
+    height: 50px;
+  }
+  .imageCircle2 {
+    left: 40px;
+  }
+  .imageCircle3 {
+    left: 80px;
+  }
+  .imageCircle4 {
+    left: 115px;
+  }
+  .rightContainer .leftContent .exploreText {
+    font-size: 20px;
+  }
+  .rightContainer .leftContent .exploreDescription {
+    font-size: 16px;
+  }
+  .rightContainer .leftContent button {
+    font-size: 14px;
+    margin-top: 20px;
+    padding: 14px 20px;
+    border-radius: 8px;
+  }
+
+  
+  .mainInfoCardContainer {
+    padding: 0 40px;
+}
+.mainInfoCardContainer .infoCard{
+    width: 300px;
+    padding: 24px 0;
+}
+.mainInfoCardContainer .infoCard .cardContent{
+    margin: 20px 0;
+}
+.mainInfoCardContainer .infoCard .cardContent .content .title{
+    font-size: 18px;
+}
+.mainInfoCardContainer .infoCard .cardContent .content .subTitle{
+    font-size: 16px;
+}
+.mainInfoCardContainer .infoCard .cardDescription{
+    font-size: 16px;
+}
+.mainInfoCardContainer .line {
+  margin: 0 40px;
+}
+}
+
+
+
+@media (max-width: 980px) {
+    .mainContainer{
+        flex-direction: column;
+    }
+  .leftContainer {
+    max-width: 100%;
+    padding-top: 80px;
+  }
+  .leftContainer .contentContainer {
+    padding-left: 40px;
+  }
+  .leftContainer .resourceInfoCardContainer {
+    padding-left: 40px;
+  }
+
+  .leftContainer .contentContainer .firstTitlePara {
+    font-size: 16px;
+  }
+  .leftContainer .contentContainer h1 {
+    font-size: 46px;
+  }
+  .leftContainer .contentContainer .titleDescription {
+    font-size: 13px;
+  }
+
+  .leftContainer .resourceInfoCardContainer {
+    padding-left: 40px;
+  }
+
+  .leftContainer .resourceInfoCardContainer .card {
+    width: 165px;
+    padding: 30px 0;
+  }
+  .leftContainer .resourceInfoCardContainer .card h2 {
+    font-size: 24px;
+  }
+  .leftContainer .resourceInfoCardContainer .card p {
+    font-size: 12px;
+  }
+  .leftContainer .resourceInfoCardContainer .line {
+    margin: 0 32px;
+  }
+  .rightContainer {
+    max-width: 100%;
+    height: 358px;
+  }
+  .rightContainer .leftContent {
+    left: 50px;
+    bottom: 50px;
+  }
+  .rightContainer .leftContent .imagesContainer {
+    width: 174px;
+    height: 66px;
+    padding: 0 5px;
+    margin-bottom: 30px;
+  }
+  .rightContainer .leftContent .imagesContainer .imageCircle {
+    width: 50px;
+    height: 50px;
+  }
+  .imageCircle2 {
+    left: 40px;
+  }
+  .imageCircle3 {
+    left: 80px;
+  }
+  .imageCircle4 {
+    left: 115px;
+  }
+  .rightContainer .leftContent .exploreText {
+    font-size: 20px;
+  }
+  .rightContainer .leftContent .exploreDescription {
+    font-size: 16px;
+  }
+  .rightContainer .leftContent button {
+    font-size: 14px;
+    margin-top: 20px;
+    padding: 14px 20px;
+    border-radius: 8px;
+  }
+   .mainInfoCardContainer {
+    padding: 0 40px;
+}
+.mainInfoCardContainer .infoCard img{
+    width: 40px;
+}
+.mainInfoCardContainer .infoCard{
+    width: 300px;
+    padding: 24px 0;
+}
+.mainInfoCardContainer .infoCard .cardContent{
+    margin: 20px 0;
+}
+.mainInfoCardContainer .infoCard .cardContent .content .title{
+    font-size: 18px;
+}
+.mainInfoCardContainer .infoCard .cardContent .content .subTitle{
+    font-size: 16px;
+}
+.mainInfoCardContainer .infoCard .cardDescription{
+    font-size: 16px;
+}
+.mainInfoCardContainer .line {
+  margin: 0 40px;
+}
+}
+
+
+
+@media (max-width: 720px) {
+  .leftContainer {
+    max-width: 100%;
+    padding-top: 40px;
+  }
+  .leftContainer .contentContainer {
+    padding: 0 16px;
+  }
+  .leftContainer .resourceInfoCardContainer {
+    padding: 0 16px;
+  }
+
+  .leftContainer .contentContainer .firstTitlePara {
+    font-size: 18px;
+  }
+  .leftContainer .contentContainer h1 {
+    font-size: 30px;
+    margin: 20px 0;
+  }
+  .leftContainer .contentContainer .titleDescription {
+    font-size: 14px;
+  }
+
+  .leftContainer .resourceInfoCardContainer {
+    padding-left: 16px;
+  }
+
+  .leftContainer .resourceInfoCardContainer .card {
+    width: 118px;
+    padding: 30px 0;
+  }
+  .leftContainer .resourceInfoCardContainer .card h2 {
+    font-size: 24px;
+  }
+  .leftContainer .resourceInfoCardContainer .card p {
+    font-size: 14px;
+  }
+  .leftContainer .resourceInfoCardContainer .line {
+    margin: 0 20px;
+  }
+  .rightContainer {
+    max-width: 100%;
+    height: 358px;
+  }
+  .rightContainer .leftContent {
+    left: 40px;
+    bottom: 40px;
+    right: 40px;
+    top: 100px;
+  }
+  .rightContainer .leftContent .imagesContainer {
+    width: 174px;
+    height: 66px;
+    padding: 0 5px;
+    margin-bottom: 30px;
+  }
+  .rightContainer .leftContent .imagesContainer .imageCircle {
+    width: 50px;
+    height: 50px;
+  }
+  .imageCircle2 {
+    left: 40px;
+  }
+  .imageCircle3 {
+    left: 80px;
+  }
+  .imageCircle4 {
+    left: 115px;
+  }
+  .rightContainer .leftContent .exploreText {
+    font-size: 20px;
+  }
+  .rightContainer .leftContent .exploreDescription {
+    font-size: 16px;
+  }
+  .rightContainer .leftContent button {
+    width: 100%;
     display: flex;
     align-items: center;
-    gap: 10px;
-    font-size: 18px;
-    margin-top: 30px;
-    padding: 18px 24px;
-    border-radius: 12px;
-    border: 1px solid var(--dark-15);
-    background-color: var(--dark-8);
-    color: var(--gray-60);
+    justify-content: center;
+    font-size: 14px;
+    margin-top: 20px;
+    padding: 14px 20px;
+    border-radius: 8px;
+  }
+
+     .mainInfoCardContainer {
+    padding: 0 16px;
+    flex-direction: column;
 }
+.mainInfoCardContainer .infoCard img{
+    width: 40px;
+}
+.mainInfoCardContainer .infoCard{
+    width: 100%;
+    padding: 24px 0;
+}
+.mainInfoCardContainer .infoCard .cardContent{
+    margin: 20px 0;
+}
+.mainInfoCardContainer .infoCard .cardContent .content .title{
+    font-size: 18px;
+}
+.mainInfoCardContainer .infoCard .cardContent .content .subTitle{
+    font-size: 16px;
+}
+.mainInfoCardContainer .infoCard .cardDescription{
+    font-size: 16px;
+}
+.mainInfoCardContainer .line {
+  margin: 0;
+}
+}
+
+
