@@ -63,6 +63,10 @@ a{
     text-decoration: none;
     color: black;
 }
+.line{
+    width: 1px;
+    background-color: var(--dark-40);
+}
 
 /* Header Style */
 .mobileHeader{
@@ -236,13 +240,52 @@ a{
 .copyrightSection .left{
     display: flex;
 }
+
 .copyrightSection .left .line{
-    width: 1px;
-    background-color: var(--dark-40);
     margin-inline: 10px;
-    
 }
 .copyrightSection .socialIcons{
     display: flex;
     gap: 20px;
+}
+
+
+/* Banner Style */
+.bannerContainer{
+    color: var(--white-color);
+    background-color: var(--dark-10);
+    border-block: 1px solid var(--dark-15);
+}
+.flexBanner{
+    padding-block: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.banner{
+    padding-block: 120px;
+}
+.banner p{
+    padding: 6px 10px;
+    background-color: var(--dark-20);
+    width: fit-content;
+    border-radius: 4px;
+    font-size: 20px;
+}
+.banner h2{
+    font-size: 58px;
+    font-weight: 500;
+    font-family: var(--kumbh-sans-font);
+    margin-top: 16px;
+}
+/* Link Button Style */
+.linkBtn{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 18px 24px;
+    border-radius: 12px;
+    border: 1px solid var(--dark-15);
+    background-color: var(--black-color);
+    color: var(--grey-60);
 }
