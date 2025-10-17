@@ -1,0 +1,234 @@
+.heroHeadlineContainer{
+    border: 1px solid var(--dark-15);
+}
+.heroHeadline{
+    padding-block: 150px;
+}
+.heroHeadline h1{
+    font-size: 80px;
+    font-family: var(--kumbh-sans-font);
+    font-weight: 500;
+}
+.heroHeadline .subHeading{
+    display: flex;
+    align-items: center;
+    gap: 80px;
+}
+.subHeading p{
+    font-size: 18px;
+    color: var(--grey-80);
+}
+
+.topNewsShowcase{
+    display: flex;
+    gap: 80px;
+    padding-block: 80px;
+}
+.topNewsShowcase .image{
+    width: 515px;
+    height: 427px;
+    border: 1px solid white;
+    border-radius: 12px;
+}
+.topNewsShowcase .image img{
+    width: 100%;
+}
+.topNewsShowcase .content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+}
+.topNewsShowcase .content .mainTitle{
+    font-size: 32px;
+}
+.topNewsShowcase .content .description{
+    font-size: 20px;
+    color: var(--grey-60);
+}
+.topNewsShowcase .content .details{
+    display: flex;
+    gap: 50px;
+}
+.details .subDetails{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+.subDetails .title{
+    font-size: 18px;
+    color: var(--grey-60);
+}
+.subDetails .subTitle{
+    font-size: 18px;
+}
+.topNewsShowcase .content .extraFeatures{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.extraFeatures .featureContainer{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.extraNewsCategoryContainer{
+    border: 1px solid var(--dark-15);
+}
+.extraNewsCategory{
+    padding-block: 80px;
+    display: flex;
+    gap: 30px;
+}
+.extraNewsCategory .newsCard{
+    max-width: 512px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.newsCard .image{
+    border: 1px solid white;
+    height: 222px;
+    border-radius: 12px;
+}
+.newsCard .title{
+    font-size: 20px;
+}
+.newsCard .category{
+    font-size: 20px;
+    color: var(--grey-60);
+}
+.newsCard .extraFeatures{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.newsCard .newsCardBtn{
+    flex: 1;
+}
+
+.blogFilterOption{
+    padding-block: 50px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.blogFilterOption .option{
+    max-width: 250px;
+    width: 100%;
+    padding: 30px 24px;
+    border: 1px solid var(--dark-15);
+    border-radius: 8px;
+    text-align: center;
+    font-size: 18px;
+    color: var(--grey-60);
+}
+.option.active{
+    background-color: var(--dark-10);
+    color: var(--white-color);
+}
+
+.blogPostContainer{
+    border: 1px solid var(--dark-15);
+    color: var(--white-color);
+}
+.blogPostContainer .blogPost{
+    display: flex;
+    gap: 50px;
+    padding-block: 80px;
+}
+.blogPost .profile{
+    max-width: 384px;
+    width: 100%;
+}
+.blogPost .profile .content{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.blogPost .profile .content .image{
+    width: 80px;
+    height: 80px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+.profile .content .image img{
+    width: 100%;
+    overflow: hidden;
+}
+.profile .content .userInfo .username{
+    font-size: 20px;
+}
+
+.profile .content .userInfo .role{
+    font-size: 18px;
+    color: var(--grey-60);
+}
+
+.blogPost .blogInfo .date{
+    font-size: 20px;
+    color: var(--grey-60);
+}
+.blogInfo{
+    flex: 1;
+}
+.blogInfo .blogContent{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+
+}
+.blogContent .content{
+    margin-block: 30px;
+}
+.blogContent .content .title{
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+.blogContent .content .description{
+    font-size: 18px;
+    color: var(--grey-60);
+}
+.blogInfo .features{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.featuredVideosContainer{
+    border: 1px solid var(--dark-15);
+}
+.featuredVideos{
+    display: flex;
+}
+.featuredVideos .line{
+    margin-inline: 80px;
+}
+
+.featuredVideos .featuredVideosCard{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    max-width: 718px;
+    width: 100%;
+    padding-block: 80px;
+}
+.featuredVideosCard .thumbnail{
+    height: 412px;
+    border-radius: 12px;
+    border: 1px solid white;
+}
+.featuredVideosCard .content{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.featuredVideosCard .content .title{
+    font-size: 24px;
+}
+.featuredVideosCard .content .description{
+    font-size: 18px;
+    color: var(--grey-60);
+}

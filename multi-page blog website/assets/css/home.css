@@ -292,16 +292,6 @@ main{
     align-items: center;
     gap: 10px;
 }
-.blogInfo .features .feature{
-    display: flex;
-    align-items: center;
-    gap: 5px;
-    padding: 8px 16px;
-    color: var(--grey-60);
-    background-color: var(--dark-10);
-    border: 1px solid var(--dark-15);
-    border-radius: 100px;
-}
 
 /* Resources Section Style */
 .resourcesBanner a{

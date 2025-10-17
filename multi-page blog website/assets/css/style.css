@@ -43,6 +43,7 @@
 }
 body{
     background-color: var(--black-color);
+    color: var(--white-color);
 }
 
 .container{
@@ -219,13 +220,6 @@ a{
     border-radius: 6px;
 }
 .linksSectionContainer .resources ul li{
-    padding: 10px 16px;
-    border: 1px solid var(--dark-15);
-    background-color: transparent;
-    border-radius: 8px;
-    display: flex;
-    align-items: center;
-    gap: 10px;
     width: fit-content;
 }
 .copyrightSection{
@@ -288,4 +282,17 @@ a{
     border: 1px solid var(--dark-15);
     background-color: var(--black-color);
     color: var(--grey-60);
+}
+
+/* Feature Button Style */
+.featureBtn{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 8px 16px;
+    color: var(--grey-60);
+    background-color: var(--dark-10);
+    border: 1px solid var(--dark-15);
+    border-radius: 100px;
+    width: fit-content;
 }
