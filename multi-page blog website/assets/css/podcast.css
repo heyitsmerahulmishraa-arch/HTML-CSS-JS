@@ -1,0 +1,182 @@
+.heroHeadlineContainer{
+    border: 1px solid var(--dark-15);
+}
+.heroHeadline{
+    padding-block: 150px;
+}
+.heroHeadline h1{
+    font-size: 80px;
+    font-family: var(--kumbh-sans-font);
+    font-weight: 500;
+}
+.heroHeadline .subHeading{
+    display: flex;
+    align-items: center;
+    gap: 80px;
+}
+.subHeading h1{
+    white-space: nowrap;
+}
+.subHeading p{
+    font-size: 18px;
+    color: var(--grey-80);
+}
+
+.reportsAndAnalysisContentContainer{
+    border-block: 1px solid var(--dark-15);
+}
+.reportsAndAnalysisContent{
+    display: flex;
+}
+.reportsAndAnalysisContent .left{
+    margin: auto 0;
+    padding-right: 80px;
+}
+.reportsAndAnalysisContent .left .content {
+    /* display: flex; */
+    align-items: start;
+    flex-direction: column;
+    gap: 50px;
+    /* border: 1px solid white; */
+    /* max-width: 519px;
+    width: 100%; */
+}
+.left .content .contentTitleAndReviewContainer{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.contentTitleAndReviewContainer p{
+    font-size: 40px;
+    font-family: var(--kumbh-sans-font);
+    /* max-width: 323px;
+    width: 100%; */
+}
+.contentTitleAndReviewContainer .reviewStarsContainer{
+    border: 1px solid var(--dark-15);
+    padding: 10px 16px;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    border-radius: 10px;
+}
+.left .content .hostDetailsContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+    border-radius: 13px;
+    background-color: var(--dark-10);
+    border: 1px solid var(--dark-15);
+}
+.hostDetailsContainer .hostDetails{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    font-size: 18px;
+}
+.hostDetails .title{
+    color: var(--grey-60);
+}
+
+
+.reportsAndAnalysisContent .right{
+    padding-block: 80px;
+    padding-left: 80px;
+    border-left: 1px solid var(--dark-15);
+}
+.reportsAndAnalysisContent .right .content{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.right .content .image{
+    height: 332px;
+    border-radius: 20px;
+    border: 1px solid white;
+}
+.right .content .innerContent{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.innerContent .textContent .title{
+    font-size: 26px;
+}
+.innerContent .textContent .description{
+    font-size: 18px;
+    color: var(--grey-60);
+    margin-top: 14px;
+}
+.innerContent button{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 18px 24px;
+    border-radius: 8px;
+    border: 1px solid var(--dark-15);
+    background-color: transparent;
+    color: var(--grey-60);
+}
+.right .content .contentCards{
+    display: flex;
+    gap: 20px;
+}
+.content .contentCards .cardContent{
+    max-width: 293px;
+    width: 100%;
+    padding: 30px;
+    border-radius: 13px;
+    border: 1px solid var(--dark-15);
+    background-color: var(--dark-10);
+}
+.cardContent .title{
+    font-size: 18px;
+    color: var(--grey-60);
+}
+.cardContent .subTitle{
+    font-size: 20px;
+    margin-top: 4px;
+}
+
+
+.podcastEpisodesSectionContainer{
+    border-block: 1px solid var(--dark-15);
+}
+.podcastEpisodesContainer .podcastEpisodesCardsContainer{
+    display: flex;
+}
+.podcastEpisodesCardsContainer .line{
+    margin-inline: 50px;
+}
+.podcastEpisodesCardsContainer .podcastEpisodesCard{
+    max-width: 470px;
+    width: 100%;
+    padding-block: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+}
+.podcastEpisodesCard .image{
+    height: 290px;
+    border-radius: 12px;
+    border: 1px solid white;
+}
+.podcastEpisodesCard .content{
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+.podcastEpisodesCard .content .title{
+    font-size: 22px;
+}
+.podcastEpisodesCard .content .description{
+    font-size: 18px;
+    color: var(--grey-60);
+}
+.podcastEpisodesCard a{
+    width: fit-content;
+}

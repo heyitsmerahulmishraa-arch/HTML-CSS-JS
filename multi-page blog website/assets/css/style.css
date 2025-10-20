@@ -272,6 +272,26 @@ a{
     font-family: var(--kumbh-sans-font);
     margin-top: 16px;
 }
+.banner .bannerBtnsContainer{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid var(--dark-15);
+    background-color: var(--dark-08);
+}
+.bannerBtnsContainer .bannerBtn{
+    padding: 18px 38px;
+    border-radius: 10px;
+    background-color: transparent;
+    border: 1px solid var(--dark-15);
+    color: var(--grey-60);
+}
+.bannerBtnsContainer .bannerBtn.active{
+    background-color: var(--dark-15);
+    color: var(--white-color);
+}
 /* Link Button Style */
 .linkBtn{
     display: flex;
@@ -295,4 +315,29 @@ a{
     border: 1px solid var(--dark-15);
     border-radius: 100px;
     width: fit-content;
+}
+
+/* Hero Heading Style */
+.heroheadContainer{
+    border: 1px solid var(--dark-15);
+}
+.heroHeadline{
+    padding-block: 150px;
+}
+.heroHeadline h1{
+    font-size: 80px;
+    font-family: var(--kumbh-sans-font);
+    font-weight: 500;
+}
+.heroHeadline .subHeading{
+    display: flex;
+    align-items: center;
+    gap: 80px;
+}
+.subHeading h1{
+    white-space: nowrap;
+}
+.subHeading p{
+    font-size: 18px;
+    color: var(--grey-80);
 }
