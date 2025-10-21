@@ -1,0 +1,1048 @@
+@media screen and (max-width: 1440px) {
+  .container {
+    padding-inline: var(--inline-padding-md);
+  }
+
+  /* Link Button Style */
+.linkBtn{
+    gap: 4px;
+    padding: 8px 14px;
+    border-radius: 6px;
+}
+
+
+
+  /* Header Responisveness */
+  .topBanner {
+    padding: 12px 24px;
+    font-size: 14px;
+  }
+  .header {
+    padding-block: 20px;
+  }
+  .links ul li {
+    padding: 10px 18px;
+    font-size: 14px;
+  }
+  .headerLinks .headerBtns a {
+    padding: 10px 14px;
+    border-radius: 6px;
+    font-size: 14px;
+  }
+
+  /* Footer Responisveness */
+  .footerTop {
+    padding-block: 80px;
+  }
+  .footerTopContentContainer {
+    gap: 50px;
+  }
+  .footerTopContentContainer img{
+    width: 120px;
+  }
+  .footerTopContent .infoTitle {
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  .footerTopContent .mainTitle {
+    font-size: 44px;
+    margin-block: 20px;
+  }
+  .footerTopContent .description {
+    font-size: 16px;
+  }
+  .footerTopCardContainer {
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 50px;
+  }
+  .cardsContainer {
+    gap: 10px;
+  }
+  .card {
+    padding: 30px;
+    border-radius: 10px;
+  }
+  .card .cardTitle {
+    font-size: 18px;
+  }
+  .card .description {
+    font-size: 16px;
+    margin-top: 16px;
+  }
+  .linksSectionContainer {
+    padding-block: 60px;
+  }
+  .linksContainer p {
+    font-size: 18px;
+    margin-bottom: 28px;
+  }
+  .linksContainer ul {
+    gap: 12px;
+  }
+  .linksContainer ul li a {
+    font-size: 14px;
+  }
+  .navLinkNew {
+    padding: 2px 10px;
+    margin-left: 8px;
+    border-radius: 4px;
+    font-size: 12px;
+  }
+  .copyrightSection {
+    font-size: 14px;
+    padding-block: 24px;
+  }
+  .copyrightSection .socialIcons {
+    gap: 14px;
+  }
+
+  /* Banner Responisveness */
+.flexBanner{
+    padding-block: 80px;
+}
+.banner{
+    padding-block: 80px;
+}
+.banner p{
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 16px;
+}
+.banner h2{
+    font-size: 44px;
+    margin-top: 10px;
+}
+.bannerBtnsContainer .bannerBtn{
+    padding: 14px 24px;
+    border-radius: 8px;
+    background-color: transparent;
+    font-size: 14px;
+}
+
+/* Feature Button Responisveness */
+.featureBtn{
+    gap: 2px;
+    padding: 6px 12px;
+}
+
+/* Home Page Responsiveness */
+.leftContainer .contentSection{
+    padding-top: 100px;
+    padding-right: 30px;
+    padding-left: 0;
+}
+.contentSection .firstTitle{
+    font-size: 22px;
+}
+.contentSection .heading{
+    font-size: 55px;
+    margin-block: 20px;
+}
+.contentSection .description{
+    font-size: 16px;
+}
+.mainSectionContainer .contentInfoContainer{
+    display: flex;
+    padding-left: 0;
+}
+.contentInfoContainer .infoCard{
+    max-width: 200px;
+    width: 100%;
+    padding-block: 50px;
+}
+.infoCard h2{
+    font-size: 30px;
+}
+.infoCard p{
+    font-size: 14px;
+}
+.contentInfoContainer .line{
+    margin-inline: 40px;
+}
+
+.mainSectionContainer .rightContainer{
+    position: relative;
+    width: 653px;
+    padding-right: 0;
+}
+.rightContainer .rightContainerContent{
+    position: absolute;
+    bottom: 80px;
+    left: 80px;
+}
+.rightContainerContent .imageContainer{
+    width: 175px;
+    height: 66px;
+    padding: 8px;
+    margin-bottom: 30px;
+}
+.imageContainer .imagebox{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border: 1px solid var(--dark-40);
+}
+.imagebox2{
+    left: 38px;
+}
+.imagebox3{
+    left: 75px;
+}
+.imagebox4{
+    left: 115px;
+}
+.rightContainerContent .title{
+    font-size: 20px;
+    margin-bottom: 6px;
+}
+.rightContainerContent .description{
+    font-size: 16px;
+}
+.rightContainerContent button{
+    margin-top: 20px;
+}
+
+.extraInfo .line{
+    margin-inline: 50px;
+}
+.extraInfo .extraInfoCard {
+    max-width: 360px;
+    width: 100%;
+    padding-block: 40px;
+}
+.extraInfoCard img{
+    width: 40px;
+    height: 40px;
+}
+.extraInfoCard .contentContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-block: 20px;
+}
+.contentContainer img{
+    width: 40px;
+    height: 40px;
+}
+.contentContainer .content .title{
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.contentContainer .content .subTitle{
+    font-size: 16px;
+}
+.extraInfoCard .description{
+    font-size: 16px;
+}
+
+.contentContainer img{
+    width: 40px;
+    height: 40px;
+}
+.contentContainer h2{
+    font-size: 30px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+.contentContainer p{
+    font-size: 16px;
+}
+.extraFeatureShowcase .line{
+    margin-inline: 60px;
+}
+
+.extraFeatureShowcase .cardContainer{
+    gap: 20px;
+    padding-block: 60px;
+    /* flex-wrap: nowrap; */
+}
+
+.cardContainer .featureCard{
+    /* max-width: 364px;
+    width: 100%; */
+    padding: 30px;
+    border-radius: 10px;
+}
+.featureCard .title{
+    font-size: 20px;
+}
+.featureCard .description{
+    font-size: 16px;
+    margin-top: 16px;
+}
+
+
+.blogFilterOption{
+    padding-block: 40px;
+    gap: 40px;
+}
+.blogFilterOption .option{
+    padding: 24px 20px;
+    border-radius: 7px;
+    font-size: 14px;
+}
+
+.blogPostContainer .blogPost{
+    gap: 40px;
+    padding-block: 60px;
+}
+.blogPost .profile{
+    max-width: 305px;
+    width: 100%;
+}
+.blogPost .profile .content{
+    gap: 10px;
+}
+.blogPost .profile .content .image{
+    width: 60px;
+    height: 60px;
+}
+.profile .content .userInfo .username{
+    font-size: 18px;
+}
+.profile .content .userInfo .role{
+    font-size: 16px;
+}
+
+.blogPost .blogInfo .date{
+    font-size: 18px;
+}
+.blogInfo{
+    flex: 1;
+}
+.blogInfo .blogContent{
+    gap: 40px;
+
+}
+.blogContent .content{
+    margin-block: 24px;
+}
+.blogContent .content .title{
+    font-size: 22px;
+    margin-bottom: 8px;
+}
+.blogContent .content .description{
+    font-size: 16px;
+}
+.blogInfo .features{
+    gap: 8px;
+}
+.resoureceInfoContainer .resoureceInfo{
+    display: flex;
+}
+.resoureceInfo .line{
+    margin-inline: 60px;
+}
+.resoureceInfo .left{
+    margin: auto 0;
+}
+.left .content{
+    gap: 40px;
+}
+.left .content img{
+    width: 40px;
+}
+.left .content .innerContent .title{
+    font-size: 30px;
+    margin-bottom: 12px;
+}
+
+.left .content .innerContent .description{
+    font-size: 16px;
+}
+
+.left .content button{
+    gap: 4px;
+    padding: 18px 20px;
+    border-radius: 6px;
+    font-size: 14px;
+}
+.left .content .userInfo{
+    gap: 30px;
+    border-radius: 8px;
+    padding: 20px;
+}
+.userInfo .downloadInfo .title{
+    font-size: 14px;
+}
+.userInfo .downloadInfo .subTitle{
+    font-size: 18px;
+}
+.userInfo .userImageContainer{
+    width: 150px;
+    height: 56px;
+    border-radius: 12px;
+    padding: 8px;
+}
+.userImageContainer .userImage{
+    width: 40px;
+    height: 40px;
+}
+.userImageContainer .userImage2{
+    left: 40px;
+}
+.userImageContainer .userImage3{
+    left: 73px;
+}
+.userImageContainer .userImage4{
+    left: 105px;
+}
+
+
+.resoureceInfo .right{
+    padding-block: 60px;
+    gap: 24px;
+}
+.right .topContent{
+    gap: 16px;
+}
+.topContent .title{
+    max-width: 203px;
+    width: 100%;
+    font-size: 20px;
+}
+.topContent .description{
+    font-size: 16px;
+}
+.right .imageShowcase{
+    height: 275px;
+    border-radius: 10px;
+}
+.right .productInfoContainer{
+    flex: 1;
+    gap: 16px;
+}
+.productInfo{
+    padding: 24px;
+    border-radius: 8px;
+}
+.productInfo .title{
+    font-size: 16px;
+}
+.productInfo .subTitle{
+    font-size: 18px;
+}
+.productInfoContainer .download{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.productInfo button{
+    gap: 4px;
+    padding: 14px 20px;
+    border-radius: 8px;
+}
+
+.testimonials{
+    display: flex;
+}
+.testimonials .line{
+    margin-inline: 40px;
+}
+.testimonials .testimonialCard{
+    max-width: 375px;
+    width: 100%;
+    padding-block: 60px;
+    gap: 30px;
+}
+.testimonialCard .profile{
+    gap: 10px;
+}
+.testimonialCard .profile .image{
+    width: 40px;
+    height: 40px;
+}
+.profile .userInfo .username{
+    font-size: 18px;
+}
+.profile .userInfo .location{
+    font-size: 16px;
+}
+.testimonialCard .userMessage{
+    border-radius: 12px;
+    padding: 40px 24px 24px 24px;
+}
+.userMessage p{
+    font-size: 16px;
+}
+.userMessage .ratingStars{
+    top: 0;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+    background-color: var(--dark-08);
+    border: 1px solid var(--dark-15);
+    border-radius: 100px;
+    width: fit-content;
+    padding: 8px 12px;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+.ratingStars img{
+    width: 20px;
+}
+
+/* News Page Responisveness */
+.heroHeadline{
+    padding-block: 80px;
+}
+.heroHeadline h1{
+    font-size: 55px;
+}
+.heroHeadline .subHeading{
+    gap: 60px;
+}
+.subHeading p{
+    font-size: 16px;
+}
+
+.topNewsShowcase{
+    gap: 40px;
+    padding-block: 60px;
+}
+.topNewsShowcase .image{
+    width: 515px;
+    height: 325px;
+    border-radius: 10px;
+}
+.topNewsShowcase .content{
+    gap: 40px;
+}
+.topNewsShowcase .content .mainTitle{
+    font-size: 24px;
+}
+.topNewsShowcase .content .description{
+    font-size: 18px;
+}
+.topNewsShowcase .content .details{
+    gap: 30px;
+}
+.details .subDetails{
+    gap: 2px;
+}
+.subDetails .title{
+    font-size: 16px;
+}
+.subDetails .subTitle{
+    font-size: 16px;
+}
+.extraFeatures .featureContainer{
+    gap: 8px;
+}
+
+.extraNewsCategory{
+    padding-block: 60px;
+}
+.extraNewsCategory .newsCard{
+    max-width: 406px;
+    width: 100%;
+    gap: 16px;
+}
+.newsCard .image{
+    height: 222px;
+}
+.newsCard .title{
+    font-size: 20px;
+}
+.newsCard .category{
+    font-size: 20px;
+}
+
+.featuredVideos .line{
+    margin-inline: 50px;
+}
+.featuredVideos .featuredVideosCard{
+    gap: 20px;
+    max-width: 590px;
+    width: 100%;
+    padding-block: 60px;
+}
+.featuredVideosCard .thumbnail{
+    height: 331px;
+    border-radius: 10px;
+}
+.featuredVideosCard .content{
+    gap: 6px;
+}
+.featuredVideosCard .content .title{
+    font-size: 20px;
+}
+.featuredVideosCard .content .description{
+    font-size: 16px;
+}
+
+/* Blog Page Responisveness */
+.blogThumbnail{
+    height: 439px;
+    padding-bottom: 35px;
+}
+.blogThumbnail .mainTitle{
+    font-size: 44px;
+}
+
+.blogContentContainer .introductionContent{
+    padding-block: 60px;
+    padding-right: 60px;
+}
+.introductionContent .title{
+    font-size: 20px;
+}
+.introductionContent .description{
+    font-size: 16px;
+    margin-top: 10px;
+}
+.blogContentContainer .blogPostContent{
+    gap: 20px;
+    padding-block: 60px;
+    padding-right: 60px;
+}
+.blogPostContent .heading{
+    font-size: 22px; 
+}
+.blogPostContent .text{
+    font-size: 16px;
+    color: var(--grey-60);
+}
+.blogPostContent .readFullBlogBtn{
+    position: absolute;
+    bottom: 55px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.blogContentDetails .blogExtraDetailsContainer{
+    max-width: 570px;
+    width: 100%;
+}
+.blogExtraDetailsContainer .blogExtraDetailsFeatureContainer{
+    gap: 14px;
+    padding-block: 40px;
+    padding-left: 60px;
+}
+.blogExtraDetailsContainer .blogDetailsContainer{
+    padding-block: 60px;
+    padding-left: 60px;
+}
+.blogExtraDetailsContainer .blogDetailsContainer .blogDetails{
+    gap: 40px;
+}
+.blogDetails .blogAuthorDetails{
+    gap: 20px;
+}
+.blogDetails .blogAuthorDetails .section{
+    gap: 20px;
+}
+.blogAuthorDetails .section .content{
+    gap: 6px;
+    width: 205px;
+}
+.blogAuthorDetails .section .content .title{
+    font-size: 16px;
+}
+.blogAuthorDetails .section .content .subTitle{
+    font-size: 16px;
+}
+
+.blogExtraDetailsContainer .tableOfContentsDetails p{
+    font-size: 16px;
+    margin-bottom: 14px;
+}
+.tableOfContentsDetails .lists{
+    padding: 18px;
+    border-radius: 10px;
+}
+.lists ul li{
+    margin-block: 18px;
+    font-size: 16px;
+}
+
+.similarNewsContent{
+    gap: 40px;
+    padding-block: 60px;
+}
+
+.extraFeatures .featureContainer{
+    gap: 6px;
+}
+.extraNewsCategory{
+    display: flex;
+    gap: 30px;
+}
+.extraNewsCategory .newsCard{
+    max-width: 406px;
+    width: 100%;
+    gap: 16px;
+}
+.newsCard .image{
+    height: 185px;
+    border-radius: 10px;
+}
+.newsCard .title{
+    font-size: 16px;
+}
+.newsCard .category{
+    font-size: 16px;
+}
+.newsCard .newsCardBtn{
+    flex: 1;
+}
+
+/* Podcast Page Responisveness */
+.heroHeadline{
+    padding-block: 80px;
+}
+.heroHeadline h1{
+    font-size: 55px;
+}
+.heroHeadline .subHeading{
+    gap: 60px;
+}
+.subHeading p{
+    font-size: 16px;
+}
+
+.reportsAndAnalysisContent .left{
+    padding-right: 60px;
+}
+.reportsAndAnalysisContent .left .content {
+    gap: 40px;
+}
+.left .content .contentTitleAndReviewContainer{
+    gap: 60px;
+    margin-top: 40px;
+    margin-bottom: 24px;
+}
+.contentTitleAndReviewContainer p{
+    font-size: 24px;
+}
+.contentTitleAndReviewContainer .reviewStarsContainer{
+    padding: 8px 10px;
+    gap: 4px;
+    border-radius: 8px;
+}
+.contentTitleAndReviewContainer .reviewStarsContainer img{
+    width: 20px;
+}
+.left .content .hostDetailsContainer{
+    padding: 24px;
+    border-radius: 8px;
+}
+.hostDetailsContainer .hostDetails{
+    gap: 2px;
+    font-size: 16px;
+}
+
+.reportsAndAnalysisContent .right{
+    padding-block: 60px;
+    padding-left: 60px;
+}
+.reportsAndAnalysisContent .right .content{
+    gap: 24px;
+}
+.right .content .image{
+    height: 297px;
+    border-radius: 16px;
+}
+.right .content .innerContent{
+    gap: 10px;
+}
+.innerContent .textContent .title{
+    font-size: 22px;
+}
+.innerContent .textContent .description{
+    font-size: 16px;
+    margin-top: 10px;
+}
+.innerContent button{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 18px 24px;
+    border-radius: 8px;
+    border: 1px solid var(--dark-15);
+    background-color: transparent;
+    color: var(--grey-60);
+}
+.right .content .contentCards{
+    gap: 16px;
+}
+.content .contentCards .cardContent{
+    max-width: 238px;
+    width: 100%;
+    padding: 24px;
+    border-radius: 8px;
+}
+.cardContent .title{
+    font-size: 16px;
+}
+.cardContent .subTitle{
+    font-size: 18px;
+    margin-top: 4px;
+}
+
+
+.podcastEpisodesCardsContainer .line{
+    margin-inline: 30px;
+}
+.podcastEpisodesCardsContainer .podcastEpisodesCard{
+    max-width: 386px;
+    width: 100%;
+    padding-block: 60px;
+    gap: 24px;
+
+}
+.podcastEpisodesCard .image{
+    height: 244px;
+    border-radius: 8px;
+}
+.podcastEpisodesCard .content{
+    gap: 10px;
+}
+.podcastEpisodesCard .content .title{
+    font-size: 18px;
+}
+.podcastEpisodesCard .content .description{
+    font-size: 16px;
+}
+
+/* Resources Page Responisveness */
+.heroHeadline{
+    padding-block: 80px;
+}
+.heroHeadline h1{
+    font-size: 55px;
+}
+.heroHeadline .subHeading{
+    gap: 60px;
+}
+.subHeading p{
+    font-size: 16px;
+}
+
+.contentInfoSectionContainer .contentInfoContainer{
+    padding-left: var(--inline-padding-md);
+}
+.contentInfoContainer .infoCard{
+    max-width: 245px;
+    width: 100%;
+    padding-block: 60px;
+}
+.infoCard h2{
+    font-size: 40px;
+}
+.infoCard p{
+    font-size: 16px;
+    margin-top: 10px;
+}
+.contentInfoContainer .line{
+    margin-inline: 50px;
+}
+
+.reportsAndAnalysisContent{
+    display: flex;
+}
+.reportsAndAnalysisContent .left{
+    margin: auto 0;
+    padding-right: 60px;
+}
+.reportsAndAnalysisContent .left .content{
+    max-width: 412px;
+    width: 100%;
+    gap: 40px;
+}
+.left .content img{
+    width: 40px;
+}
+.left .content .title{
+    font-size: 30px;
+}
+.left .content .description{
+    font-size: 16px;
+}
+.reportsAndAnalysisContent .right{
+    padding-block: 60px;
+    padding-left: 60px;
+}
+.reportsAndAnalysisContent .right .content{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.right .content .image{
+    height: 303px;
+    border-radius: 8px;
+}
+.right .content .innerContent{
+    gap: 20px;
+}
+.innerContent .textContent .title{
+    font-size: 20px;
+}
+.innerContent .textContent .description{
+    font-size: 16px;
+    margin-top: 14px;
+}
+.innerContent button{
+    gap: 4px;
+    padding: 14px 20px;
+    border-radius: 8px;
+    white-space: nowrap;
+    font-size: 14px;
+}
+.right .content .contentCards{
+    display: flex;
+    gap: 16px;
+}
+.content .contentCards .cardContent{
+    max-width: 238px;
+    width: 100%;
+    padding: 24px;
+    border-radius: 8px;
+}
+.cardContent .title{
+    font-size: 16px;
+}
+.cardContent .subTitle{
+    font-size: 18px;
+    margin-top: 4px;
+}
+
+.moreReportsAndAnalysisContent .moreContentCards{
+    display: flex;
+}
+.moreContentCards .line{
+    margin-inline: 50px;
+}
+.moreContentCards .moreContentCard{
+    gap: 24px;
+    max-width: 385px;
+    width: 100%;
+    padding-block: 60px;
+}
+.moreContentCard .image{
+    height: 290px;
+    border-radius: 12px;
+}
+.moreContentCard .title{
+    font-size: 18px;
+}
+.moreContentCard .description{
+    font-size: 16px;
+}
+.moreContentCard .moreContentCardBtns{
+    gap: 10px;
+}
+.moreContentCardBtns button{
+    flex: 1;
+    padding: 14px 20px;
+    border-radius: 8px;
+    white-space: nowrap;
+}
+
+/* Contact Page Responisveness */
+.contactHeroSection .contactHeroCardsContainer{
+    display: flex;
+}
+.contactHeroCardsContainer .line{
+    margin-inline: 30px;
+}
+.contactHeroCardsContainer .contactHeroCard{
+    max-width: 275px;
+    width: 100%;
+    padding-block: 60px;
+    gap: 30px;
+}
+.contactHeroCard .cardContent{
+    gap: 10px;
+}
+.contactHeroCard .cardContent p{
+    font-size: 14px;
+}
+
+.contactFormContainer{
+    display: flex;
+}
+.contactFormContainer .left{
+    padding-right: 60px;
+}
+.contactFormContainer .left .content{
+    max-width: 412px;
+    width: 100%;
+    gap: 30px;
+
+}
+.left .content img{
+    width: 40px;
+}
+.left .content h1{
+    font-size: 44px;
+}
+
+.contactFormContainer .right{
+padding-block: 60px;
+padding-left: 60px;
+flex: 1;
+}
+.right form{
+    gap: 30px;
+}
+.right form .formSection{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    font-size: 16px;
+}
+.right form .formSection .inputDetailsSection{
+    gap: 12px;
+}
+.inputDetailsSection .inputBox{
+    display: flex;
+    gap: 4px;
+}
+.inputDetailsSection .inputBox input{
+    flex: 1;
+}
+.inputDetailsSection input,select,textarea{
+    padding: 16px;
+    border-radius: 6px;
+    font-size: 16px;
+}
+.inputDetailsSection input{
+    flex: 1;
+}
+.right form .submitSection{
+    gap: 70px;
+}
+.submitSection .terms{
+    gap: 6px;
+    font-size: 16px;
+}
+.terms input{
+    width: 24px;
+    height: 24px;
+    border-radius: 4px;
+}
+.submitSection button{
+    padding: 14px 34px;
+    border-radius: 8px;
+}
+
+.right .questionsContainerSection{
+    gap: 24px;
+}
+
+.right .questionsContainer{
+    padding: 24px;
+    border-radius: 10px;
+}
+.right .questionsContainer .line{
+    margin-block: 20px;
+}
+.right .questionsContainer .answerBox p{
+    font-size: 16px;
+}
+
+}

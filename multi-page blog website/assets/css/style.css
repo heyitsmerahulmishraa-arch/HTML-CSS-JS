@@ -124,7 +124,7 @@ a{
 .links ul li.active a{
     color: var(--white-color);
 }
-.headerLinks .headerBtns button{
+.headerLinks .headerBtns a{
     padding: 14px 20px;
     border-radius: 10px;
     background-color: var(--yellow-55);
@@ -302,6 +302,7 @@ a{
     border: 1px solid var(--dark-15);
     background-color: var(--black-color);
     color: var(--grey-60);
+    white-space: nowrap;
 }
 
 /* Feature Button Style */

@@ -44,6 +44,7 @@
 .left .content .contentTitleAndReviewContainer{
     display: flex;
     align-items: center;
+    justify-content: space-between;
     gap: 100px;
     margin-top: 50px;
     margin-bottom: 30px;
@@ -76,9 +77,13 @@
     flex-direction: column;
     gap: 4px;
     font-size: 18px;
+    padding-right: 40px;
 }
 .hostDetails .title{
     color: var(--grey-60);
+}
+.hostDetails .subTitle{
+    white-space: nowrap;
 }
 
 

@@ -10,8 +10,7 @@ main{
     display: flex;
     flex-direction: column;
     gap: 100px;
-    border: 1px solid var(--dark-15);
-    border-left: none;
+    border-right: 1px solid var(--dark-15);
 }
 .leftContainer .contentSection{
     padding-top: 150px;
@@ -21,17 +20,18 @@ main{
 }
 .contentSection .firstTitle{
     font-size: 30px;
+    font-family: var(--kumbh-sans-font);
     color: var(--dark-40);
 }
 .contentSection .heading{
     font-size: 70px;
     font-weight: 500;
     margin-block: 30px;
+    font-family: var(--kumbh-sans-font);
 }
 .contentSection .description{
     font-size: 18px;
     color: var(--grey-50);
-    font-family: var(--inter-font);
 }
 .mainSectionContainer .contentInfoContainer{
     display: flex;
@@ -138,6 +138,7 @@ main{
 .contentContainer .content .title{
     margin-bottom: 18px;
     font-size: 20px;
+    color: white;
 }
 .contentContainer .content .subTitle{
     font-size: 18px;
@@ -183,11 +184,14 @@ main{
     gap: 30px;
     padding-block: 80px;
 }
+.cardContainer .innerCardContainer{
+    display: flex;
+    gap: 30px;
+}
 
 .cardContainer .featureCard{
+    flex: 1;
     border: 1px solid var(--dark-15);
-    max-width: 444px;
-    width: 100%;
     background-color: var(--dark-10);
     padding: 40px;
     border-radius: 12px;
@@ -208,11 +212,10 @@ main{
     padding-block: 50px;
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 20px;
 }
 .blogFilterOption .option{
-    max-width: 250px;
-    width: 100%;
+    flex: 1;
     padding: 30px 24px;
     border: 1px solid var(--dark-15);
     border-radius: 8px;
@@ -516,4 +519,7 @@ main{
     display: flex;
     align-items: center;
     gap: 7px;
+}
+.ratingStars img{
+    width: 24px;
 }
